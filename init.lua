@@ -19,6 +19,7 @@ return {
 
   -- Set colorscheme to use
   colorscheme = "astrodark",
+  -- colorscheme = "nightfox",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -81,5 +82,6 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    vim.cmd('command! WF :noautocmd w')
   end,
 }
